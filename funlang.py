@@ -113,7 +113,7 @@ def runline(line,canuseos,canusestdio,canusewait,canuserandom,env,c,code):
       error('please, ask stdio for permission to ask anything before asking',c,line)
   else:
     error('function doesnt exist',c,line)
-  return (canuseos,canusestdio,canusestdio,env)
+  return (canuseos,canusestdio,canusestdio,canuserandom,env)
 
 def emulate(code):
   env = {}
