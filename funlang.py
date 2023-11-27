@@ -98,13 +98,13 @@ def runline(line,canuseos,canusestdio,canusewait,canuserandom,env,c,code):
     loopend = findloopstop(code,c) + c
     while run:
       run = eval(parsestr(' '.join(parsed[1:]),env), {'__builtins__': None})
-      emulate2(code[loopstart+2:loopend],canuseos,canusestdio,canusewait,env)
+      emulate2(code[loopstart+2:loopend],canuseos,canusestdio,canusewait,canuserandom,env)
     return ("SKIP",loopend-loopstart)
   elif parsed[0] == 'WHEN':
     loopstart = c + 1
     loopend = findifend(code,c) + c
     if eval(parsestr(' '.join(parsed[1:]),env), {'__builtins__': None}):
-      emulate2(code[loopstart+2:loopend],canuseos,canusestdio,canusewait,env)
+      emulate2(code[loopstart+2:loopend],canuseos,canusestdio,canusewait,canuserandom,env)
     return ("SKIP",loopend-loopstart)
   elif parsed[0] == 'ASK':
     if canusestdio:
