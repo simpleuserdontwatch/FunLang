@@ -4,6 +4,7 @@ Funlang and many other.
 ## Table of contents
 - [Intro](#intro)
 - [Getting started](#getting-started)
+- [Headers](#headers)
 - [Functions](#functions)
   - [SAY](#say)
   - [MEET](#meet)
@@ -23,6 +24,17 @@ Funlang is a programming language designed for simplicity **(maybe not lol)** an
 To get started with Funlang, you need to have the Funlang interpreter installed on your system. You can download the interpreter from this GitHub repository. 
 
 Once you have the Funlang interpreter installed, you can create a new Funlang script file with a `.fun` or `.funlang` extension. In this file, you can write your Funlang code using the available functions and syntax.
+## Headers
+Headers let people know what code is it.
+
+Headers could be:
+1. `HAI` - Does nothing. But you must include it
+2. `MY NAME` - The name of script
+3. `MADE BY` - Author of script
+4. `DESCRIPTION` - Description of script.
+
+Also please, dont put spaces in between of headers or it could go into an error.
+
 ## Functions
 ### SAY
 Say function let you display text you specified. But first, you need to use [PLS](#pls) STDIO to use it.
