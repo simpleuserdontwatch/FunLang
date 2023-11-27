@@ -1,0 +1,72 @@
+HAI
+MY NAME test program
+MADE BY Simpleuserdontwatch
+DESCRIPTION An program to test how funlang works.
+
+PLS STDIO
+PLS TIME
+PLS OS
+
+MEET a
+MEET b
+MEET c
+
+SET a 4+2
+SET b 4-2
+
+THINK 500
+SAY FUN_LANG IS FUN
+THINK 500
+SAY YEA IT IS.
+THINK 500
+SYSTEM dir
+SAY a VARIABLE IS <a>
+SAY b VARIABLE IS <b>
+SAY c VARIABLE IS <c> (NOT DEFINED!)
+
+MEET x
+MEET y
+MEET z
+
+SET x 5
+SET y 3
+SET z <x>+<y>
+
+SAY THE VAUL OF X IS <x>
+SAY THE VAUL OF Y IS <y>
+SAY THE VAUL OF Z IS <z>
+SAY THIS IS AN<NEWLINE>MULTIPLE LINE<NEWLINE>MESSAGE
+
+SET c 0
+
+LOOP <c> < 10
+SAY VAUL IS <c>
+SET c <c> + 1
+LOOPEND
+
+SAY BACK TO CODE
+
+SET x 2
+SET y 2
+SET z 3
+
+SAY IS x(2) EQUAL TO y(2)?
+
+WHEN <x> == <y>
+SAY YES!
+WHENEND
+
+SAY IS x(2) EQUAL TO z(3)?
+
+WHEN <x> == <z>
+SAY YES!
+WHENEND
+
+ASK input WHATS YOUR NAME? 
+
+SAY HELLO <input>!
+
+RANDOMIZE random 1 10
+SAY daily random number is <random>
+
+BYE 0
