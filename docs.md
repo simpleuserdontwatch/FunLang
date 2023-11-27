@@ -22,7 +22,7 @@ Funlang is a programming language designed for simplicity **(maybe not lol)** an
 ## Getting started
 To get started with Funlang, you need to have the Funlang interpreter installed on your system. You can download the interpreter from this GitHub repository. 
 
-Once you have the Funlang interpreter installed, you can create a new Funlang script file with a `.fun` extension. In this file, you can write your Funlang code using the available functions and syntax.
+Once you have the Funlang interpreter installed, you can create a new Funlang script file with a `.fun` or `.funlang` extension. In this file, you can write your Funlang code using the available functions and syntax.
 ## Functions
 ### SAY
 Say function let you display text you specified. But first, you need to use [PLS](#pls) STDIO to use it.
