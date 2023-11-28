@@ -62,7 +62,7 @@ Arguments are `VAR MIN MAX`.
 ### ERROR
 Throws an error with reason you specified.
 ## Conclusion
-This documentation provided an overview of the functions and features available in the Funlang programming language. You learned about the various functions, such as `PLS`, `SAY`, `MEET`, `SET`, `THINK`, `SYSTEM`, `BYE`, `LOOP`, `WHEN`, `ASK`, and RANDOMIZE, and how to use them in your Funlang scripts.
+This documentation provided an overview of the functions and features available in the Funlang programming language. You learned about the various functions, such as `PLS`, `SAY`, `MEET`, `SET`, `THINK`, `SYSTEM`, `BYE`, `LOOP`, `WHEN`, `ASK`, and `RANDOM`, and how to use them in your Funlang scripts.
 
 With this knowledge, you can start creating your own Funlang scripts and explore the possibilities of this simple programming language.
 
