@@ -17,6 +17,7 @@ Funlang and many other.
   - [WHEN](#when)
   - [ASK](#ask)
   - [RANDOM](#random)
+  - [ERROR](#error)
 - [Conclusion](#conclusion)
 ## Intro
 Funlang is a programming language designed for simplicity **(maybe not lol)** and ease of use. It provides a set of functions that allow you to perform various operations, such as printing messages, manipulating variables, executing system commands, and more.
