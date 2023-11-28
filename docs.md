@@ -16,7 +16,7 @@ Funlang and many other.
   - [LOOP](#loop)
   - [WHEN](#when)
   - [ASK](#ask)
-  - [RANDOMIZE](#randomize)
+  - [RANDOM](#random)
 - [Conclusion](#conclusion)
 ## Intro
 Funlang is a programming language designed for simplicity **(maybe not lol)** and ease of use. It provides a set of functions that allow you to perform various operations, such as printing messages, manipulating variables, executing system commands, and more.
@@ -25,16 +25,7 @@ To get started with Funlang, you need to have the Funlang interpreter installed 
 
 Once you have the Funlang interpreter installed, you can create a new Funlang script file with a `.fun` or `.funlang` extension. In this file, you can write your Funlang code using the available functions and syntax.
 ## Headers
-Headers let people know what code is it.
-
-Headers could be:
-1. `HAI` - Does nothing. But you must include it
-2. `MY NAME` - The name of script
-3. `MADE BY` - Author of script
-4. `DESCRIPTION` - Description of script.
-
-Also please, dont put spaces in between of headers or it could go into an error.
-
+<sup>The headers was removed, cause its time wasting to write whole name, description, author in your code.</sup>
 ## Functions
 ### SAY
 Say function let you display text you specified. But first, you need to use [PLS](#pls) STDIO to use it.
@@ -48,7 +39,7 @@ Possible permissions are
 - `STDIO`: Allows the use of standard i/o functions.
 - `TIME`: Allows the use of time-related functions, such as `THINK`.
 - `OS`: Allows the use of system-related functions, such as `SYSTEM`.
-- `RANDOM`: Allows the use of random number generation functions, such as `RANDOMIZE`.
+- `RANDOM`: Allows the use of random number generation functions, such as `RANDOM`.
 ### THINK
 Halts for N ms. But first you need to have permission for time.
 ### SYSTEM
@@ -64,9 +55,11 @@ must add `WHENEND` at end of functions you want to be in when to prevent an erro
 ### ASK
 Asks user for input.\
 The arguments for function is `Where-to-store Question`.
-### RANDOMIZE
+### RANDOM
 Picks an random number.\
 Arguments are `VAR MIN MAX`.
+### ERROR
+Throws an error with reason you specified.
 ## Conclusion
 This documentation provided an overview of the functions and features available in the Funlang programming language. You learned about the various functions, such as `PLS`, `SAY`, `MEET`, `SET`, `THINK`, `SYSTEM`, `BYE`, `LOOP`, `WHEN`, `ASK`, and RANDOMIZE, and how to use them in your Funlang scripts.
 
